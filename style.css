@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(195, 227, 255);
+}
+nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: absolute;
+    z-index: 999;
+}
+.menus{
+    display: flex;
+    gap: 40px;
+}
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.menus h4{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.main-content{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+}
+.main-content  .intro h2{
+    font-size:45px  ;
+    font-weight: 100;
+    rotate:-90deg;
+    /* background-color: yellow; */
+    width: 50%;
+    transform: translate(-45%,-150%);
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+.intro{
+    transition: all .5s ease-in-out ;
+}
+.intro h2:hover{
+    color: white;
+}
+.intro:hover{
+    background-color: rgb(128, 81, 81);
+    height: 111%;
+    width: 20%;
+}
+.produc1{
+    width:33%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    transition: all .5s ease-in-out;
+}
+.produc2{
+    width:33%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 150px;
+    transition: all .5s ease-in-out;
+
+
+}
+.produc3{
+    width:33%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    transition: all .5s ease-in-out;
+
+}
+.product{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+p{
+    width: 70%;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 120px;
+    font-weight: 100;
+    transition: all .5s ease-in-out;
+}
+.produc1:hover{
+    padding-top: 30px;
+    background-color:rgb(54, 82, 72);
+    color: white;
+}
+.produc2:hover{
+    padding-top: 80px;
+    background-color:rgb(215, 156, 46);
+    color: white;
+}
+.produc3:hover{
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(156, 100, 110);
+}
+.produc1:hover h3{
+    font-size: 100px;
+}
+.produc2:hover h3{
+    font-size: 100px;
+}
+.produc3:hover h3{
+    font-size: 100px;
+}
